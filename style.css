@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  width: 100%;
+  height: 90px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-items {
+  display: flex;
+  list-style: none;
+}
+.nav-items li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  transition: all 0.5s;
+}
+.nav-items li {
+  text-decoration: none;
+  padding: 0px 30px;
+}
+nav h1 {
+  font-size: 35px;
+  padding: 0px 0px 0px 30px;
+  color: #f74f10;
+  cursor: pointer;
+}
+nav span {
+  color: white;
+}
+nav .search-div {
+  padding: 0px 30px 0px 0px;
+}
+nav .search-div input {
+  height: 40px;
+  padding: 0px 10px 0px 10px;
+  border: 1px solid #f74f10;
+  outline: none;
+  background: transparent;
+  color: white;
+  font-weight: bold;
+}
+nav .search-div input::placeholder {
+  color: white;
+}
+nav .search-div input::-webkit-search-cancel-button {
+  appearance: none;
+}
+nav .search-div button {
+  border: none;
+  outline: none;
+  height: 40px;
+  padding: 5px 10px;
+  background-color: #f74f10;
+  color: white;
+  font-weight: bold;
+}
+.nav-items li a:hover {
+  color: #f74f10;
+}
+
+/* !SEC-MAIN */
+
+.sec-main {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://e0.pxfuel.com/wallpapers/22/813/desktop-wallpaper-container-ship-background-2019-cargo-ship.jpg");
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-main-wrapper {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* !FORM BOX */
+
+.form-box {
+  margin: 80px 0 0 0;
+  color: white;
+  height: 600px;
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.573);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form-box form {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+.form-box form input {
+  color: white;
+  width: 90%;
+  height: 50px;
+  margin: 10px 0;
+  background: transparent;
+  border: 1px solid grey;
+  outline: none;
+  padding: 0px 20px 0px 20px;
+  font-weight: bold;
+}
+.form-box form input::-webkit-inner-spin-button {
+  appearance: none;
+}
+.form-box h1 {
+  font-size: 40px;
+}
+.form-box button {
+  width: 88%;
+  height: 50px;
+  background-color: #f74f10;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0px 0px 20px 0;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+.form-box p {
+  width: 90%;
+  text-align: center;
+  font-size: 12px;
+  margin: 0px 0px 20px 0;
+}
+.form-box .social-media-accounts {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.form-box .social-media-accounts .fa-brands {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* !ABOUT */
+.sec-main-about {
+  margin: 80px 0 0 0;
+  width: 60%;
+  text-align: right;
+}
+.sec-main-about h1 {
+  color: #f74f10;
+  font-size: 70px;
+}
+.sec-main-about span {
+  color: white;
+}
+.sec-main-about p {
+  line-height: 35px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+.sec-main-about button {
+  width: 400px;
+  height: 50px;
+  background-color: #f74f10;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0px 0px 20px 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+.sec-main-about .mmc {
+  color: grey;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 20px 0;
+}
